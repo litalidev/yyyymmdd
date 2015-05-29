@@ -31,6 +31,7 @@ Usage:
     -v : print version number
 
 Bug:
+  Report in github or
   sent bug/comment to litalidev@gmail.com with SUBJECT [yyyymmdd]
   Sample format of bug reports:
 
@@ -39,7 +40,8 @@ Bug:
       Windows version: Windows 2012R2 Standard
       User: Administrator
       yyyymmdd version   : 1.0.0
-      yyyymmdd output    : 12/3/2015
+      yyyymmdd output    : 20152902
+      actual date (mm/dd/yy) : 02/29/2015
       yyyymmdd -d output : 
 
     012345678901234567890
