@@ -1,63 +1,64 @@
 # yyyymmdd
 Windows batch to print current date in yyyymmdd format
 
-rem   print the current date in yyyymmdd format and set the variable yyyymmdd
-rem
-rem License: MIT
-rem Copyright (c) 2015 by Lita Li
-rem
-rem   Permission is hereby granted, free of charge, to any person obtaining a copy
-rem   of this software and associated documentation files (the "Software"), to deal
-rem   in the Software without restriction, including without limitation the rights
-rem   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-rem   copies of the Software, and to permit persons to whom the Software is
-rem   furnished to do so, subject to the following conditions:
-rem  
-rem   The above copyright notice and this permission notice shall be included in
-rem   all copies or substantial portions of the Software.
-rem  
-rem   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-rem   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-rem   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-rem   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-rem   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-rem   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-rem   THE SOFTWARE.
-rem 
-rem
-rem Usage:
-rem   yyyymmdd [-d] [-q] [-v]
-rem
-rem     -d : output system date in raw format for debugging
-rem     -q : quiet mode, no output, just set the yyyymmdd variable
-rem     -v : print version number
-rem
-rem Bug:
-rem   sent bug/comment to litalidev@gmail.com with SUBJECT [yyyymmdd]
-rem   Sample format of bug reports:
-rem
-rem   Subject: [yyyymmdd] I found a bug in my system
-rem   Email body:
-rem     Windows version: Windows 2012R2 Standard
-rem     User: Administrator
-rem     yyyymmdd version   : 1.0.0
-rem     yyyymmdd output    : 12/3/2015
-rem     yyyymmdd -d output : 
-rem
-rem     012345678901234567890
-rem     03/22/2015 Sun
-rem     mm-dd-yy
-rem     
-rem
-rem Tested OS:
-rem   xp, 2003, vista, 7, 2012R2
-rem
-rem Version Detail
-rem ------- -----------------------------------------
-rem 1.0.0   Initial release
-rem
-rem %date% can be one of the following format
-rem 01234567890123
-rem Wed 03/25/2015 format a win2003 xp
-rem 03/25/2015 Wed format b vista win7
-rem 25/03/2015     format c win2012r2 in dd-mm-yy
+yyyymmdd.bat
+  print the current date in yyyymmdd format and set the variable yyyymmdd
+
+License: MIT
+Copyright (c) 2015 by Lita Li
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+ 
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+ 
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  THE SOFTWARE.
+
+
+Usage:
+  yyyymmdd [-d] [-q] [-v]
+
+    -d : output system date in raw format for debugging
+    -q : quiet mode, no output, just set the yyyymmdd variable
+    -v : print version number
+
+Bug:
+  sent bug/comment to litalidev@gmail.com with SUBJECT [yyyymmdd]
+  Sample format of bug reports:
+
+  Subject: [yyyymmdd] I found a bug in my system
+  Email body:
+    Windows version: Windows 2012R2 Standard
+    User: Administrator
+    yyyymmdd version   : 1.0.0
+    yyyymmdd output    : 12/3/2015
+    yyyymmdd -d output : 
+
+    012345678901234567890
+    03/22/2015 Sun
+    mm-dd-yy
+    
+
+Tested OS:
+  xp, 2003, vista, 7, 2012R2
+
+Version Detail
+------- -----------------------------------------
+1.0.0   Initial release
+
+%date% can be one of the following format
+01234567890123
+Wed 03/25/2015 format a win2003 xp
+03/25/2015 Wed format b vista win7
+25/03/2015     format c win2012r2 in dd-mm-yy
