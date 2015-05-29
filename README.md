@@ -54,8 +54,9 @@ Version Detail
 ------- -----------------------------------------
 1.0.0   Initial release
 
-%date% can be one of the following format
-  01234567890123
-  Wed 03/25/2015 format a win2003 xp
-  03/25/2015 Wed format b vista win7
-  25/03/2015     format c win2012r2 in dd-mm-yy
+%date% can be one of the following format:
+
+    01234567890123
+    Wed 03/25/2015 format a win2003 xp
+    03/25/2015 Wed format b vista win7
+    25/03/2015     format c win2012r2 in dd-mm-yy
