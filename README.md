@@ -1,8 +1,5 @@
-# yyyymmdd
+# yyyymmdd.bat
 Windows batch to print current date in yyyymmdd format
-
-yyyymmdd.bat
-  print the current date in yyyymmdd format and set the variable yyyymmdd
 
 License: MIT
 Copyright (c) 2015 by Lita Li
@@ -37,13 +34,13 @@ Bug:
   sent bug/comment to litalidev@gmail.com with SUBJECT [yyyymmdd]
   Sample format of bug reports:
 
-  Subject: [yyyymmdd] I found a bug in my system
-  Email body:
-    Windows version: Windows 2012R2 Standard
-    User: Administrator
-    yyyymmdd version   : 1.0.0
-    yyyymmdd output    : 12/3/2015
-    yyyymmdd -d output : 
+    Subject: [yyyymmdd] I found a bug in my system
+    Email body:
+      Windows version: Windows 2012R2 Standard
+      User: Administrator
+      yyyymmdd version   : 1.0.0
+      yyyymmdd output    : 12/3/2015
+      yyyymmdd -d output : 
 
     012345678901234567890
     03/22/2015 Sun
@@ -58,7 +55,7 @@ Version Detail
 1.0.0   Initial release
 
 %date% can be one of the following format
-01234567890123
-Wed 03/25/2015 format a win2003 xp
-03/25/2015 Wed format b vista win7
-25/03/2015     format c win2012r2 in dd-mm-yy
+  01234567890123
+  Wed 03/25/2015 format a win2003 xp
+  03/25/2015 Wed format b vista win7
+  25/03/2015     format c win2012r2 in dd-mm-yy
